@@ -12,7 +12,7 @@ public class AreaCircle {
 	public static void main(String[] args) {
 		
 		
-		calcAreaOfCircle(radius);
+		calcAreaOfCircle(radius, pi);
 		displayArea();
 	}
 	
@@ -20,7 +20,7 @@ public class AreaCircle {
 	 * First Method with two parameters (radius and pi)
 	 */
 	
-	public static void calcAreaOfCircle(double radius) {
+	public static void calcAreaOfCircle(double radius, double pi) {
 		
 		area = pi * radius * radius;
 		
