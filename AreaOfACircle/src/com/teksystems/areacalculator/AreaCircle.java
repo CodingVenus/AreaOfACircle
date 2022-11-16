@@ -2,9 +2,9 @@ package com.teksystems.areacalculator;
 
 public class AreaCircle {
 	
-	static double area;
-	static double radius = 50;
-	static double pi = 3.14;
+	private static double area;
+	private static double radius = 50;
+	private static double pi = 3.14;
 
 	/**
 	 * Invoke each method in main method
